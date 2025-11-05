@@ -92,6 +92,38 @@
             border-top: 2px solid #e0e0e0;
             color: #666;
             font-size: 0.9rem;
+            text-align: center;
+        }
+
+        .footer-actions {
+            display: flex;
+            flex-direction: row;
+            justify-content: center;
+            gap: 16px;
+            margin-bottom: 12px;
+        }
+
+        .donate-btn {
+            background: #1e90ff;
+            color: #fff;
+            padding: 10px 18px;
+            border-radius: 8px;
+            text-decoration: none;
+            font-weight: 600;
+            box-shadow: 0 8px 20px rgba(30,144,255,0.16);
+            transition: transform .12s ease, box-shadow .12s ease, opacity .12s ease;
+            display: inline-block;
+        }
+
+        .donate-btn:hover {
+            transform: translateY(-2px);
+            box-shadow: 0 12px 34px rgba(30,144,255,0.22);
+            opacity: 0.98;
+        }
+
+        .donate-btn:focus {
+            outline: 3px solid rgba(30,144,255,0.18);
+            outline-offset: 2px;
         }
 
         footer a {
@@ -152,7 +184,11 @@
         </main>
 
         <footer>
-            email: <a href="mailto:contact@turnthevolumeup.org">contact@turnthevolumeup.org</a>
+            <div class="footer-actions">
+                <a class="donate-btn" href="https://secure.actblue.com/donate/zohran-mamdani-transition-1/" target="_blank" rel="noopener noreferrer">Donate</a>
+            </div>
+
+            <div class="footer-contact">email: <a href="mailto:contact@turnthevolumeup.org">contact@turnthevolumeup.org</a></div>
         </footer>
     </div>
 </body>
