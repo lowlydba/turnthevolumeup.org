@@ -1,0 +1,19 @@
+/* TEAM */
+Developer: John McCall
+Contact: contact [at] turnthevolumeup.org
+
+/* SITE */
+Last update: 2025/11/05
+Standards: HTML5, CSS3
+Components: Twitter Embed
+Software: VS Code, GitHub
+
+/* THANKS */
+Zohran Mamdani - Mayor-Elect of NYC
+For inspiring bold, progressive leadership
+
+---
+
+I'm an engineer passionate about building clean, purposeful web experiences.
+Currently seeking new opportunities - let's build something great together!
+https://www.linkedin.com/in/johnhmccall/
